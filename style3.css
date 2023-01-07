@@ -6,127 +6,137 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: rgb(250, 255, 240);    
+    background: rgb(250, 255, 240);
     /* background-color: rgb(66, 234, 184); */
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-main{
+main {
     width: 100%;
     padding-top: 70px;
 }
 
-h1{
-font-family: 'Bitter', serif;
-font-family: 'Courgette', cursive;
-font-family: 'Lobster', cursive;
+h1 {
+    font-family: 'Bitter', serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster', cursive;
 }
-h1{
-   /* justify-content: center; */
-   position: relative;
-   bottom: 91px;
-   text-align: center;
-   /* padding-bottom: 20px; */
-   /* border: 3px solid black; */
-   /* display: inline; */
-   align-items: center;
-   /* border: 3px solid red; */
-   padding: 5px;
-   width: 35rem;
-   margin: auto;
-   
+
+h1 {
+    justify-content: center;
+    position: relative;
+    bottom: 91px;
+    text-align: center;
+    padding-bottom: 20px;
+    /* border: 3px solid black; */
+    /* display: inline; */
+    align-items: center;
+    /* border: 3px solid red; */
+    padding: 20px;
+    width: 35rem;
+    margin: auto;
+    font-family: 'Bitter', serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster', cursive;
+
 }
-.Main_title{
+
+.Main_title h1 {
     font-family: 'Bitter', serif;
     font-family: 'Courgette', cursive;
     font-family: 'Lobster', cursive;
     color: black;
     letter-spacing: 1.5px;
-    font-size: 50px;
-    text-shadow: 
-      1px -1px 0 #767676, 
-      -1px 2px 1px #737272, 
-      -2px 4px 1px #767474, 
-      -3px 6px 1px #787777;
-      
-/* 
+    font-size: 100px;
+    /* text-shadow:
+        1px -1px 0 #767676,
+        -1px 2px 1px #737272,
+        -2px 4px 1px #767474,
+        -3px 6px 1px #787777; */
+
+    /* 
     text-shadow: 
     4px 4px 0px #878181, 
     7px 7px 0px rgba(0, 0, 0, 0.2); */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800;900&display=swap');
-*{
-  font-family: 'Poppins', sans-serif;
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-  justify-content: center;
-  
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+
 }
-/* 
-svg{
-  backgroun;
-} */
-svg text{
+
+
+
+svg text {
     left: 30%;
-  font-size:5vw;
-  font-weight:500;
-  stroke-width:1px;
-  fill:transparent;
-  /* stroke:#FFFF00; */
-  stroke:#000000;
-  letter-spacing:1.5px;
-  animation:effect 5s infinite alternate;
+    font-size: 5vw;
+    font-weight: 500;
+    stroke-width: 1px;
+    fill: transparent;
+    stroke: #FFFF00;
+    stroke: #000000;
+    letter-spacing: 1.5px;
+    animation: effect 5s infinite alternate;
 }
 
-@keyframes effect{
-  0%{
-    stroke-dasharray:0 70%;
-  }
-  100%{
-    stroke-dasharray:10% 0%;
-    stroke-dashoffset:20%;
-    text-shadow:0px 0px 20px #ff0, 0px 0px 40px #ff0, 0px 0px 60px #ff0, 0px 0px 80px #ff0, 0px 0px 100px #ff0;
-    text-shadow:0px 0px 20px rgb(34, 34, 33), 0px 0px 40px rgb(34, 34, 33), 0px 0px 60px rgb(34, 34, 33), 0px 0px 80px rgb(34, 34, 33), 0px 0px 100px rgb(34, 34, 33);
-  }
+@keyframes effect {
+    0% {
+        stroke-dasharray: 0 70%;
+    }
+
+    100% {
+        stroke-dasharray: 10% 0%;
+        stroke-dashoffset: 20%;
+        text-shadow: 0px 0px 20px #ff0, 0px 0px 40px #ff0, 0px 0px 60px #ff0, 0px 0px 80px #ff0, 0px 0px 100px #ff0;
+        text-shadow: 0px 0px 20px rgb(34, 34, 33), 0px 0px 40px rgb(34, 34, 33), 0px 0px 60px rgb(34, 34, 33), 0px 0px 80px rgb(34, 34, 33), 0px 0px 100px rgb(34, 34, 33);
+    }
 }
 
 
-header{
-    
-    margin:  auto;
+header {
+
+    margin: auto;
 }
 
-nav{
+nav {
     position: fixed;
     top: 0;
-    width: 100vw;
-    justify-content: center;
-    text-align: center;
-    padding: 20px 30px ;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    /* text-align: center; */
+    align-items: center;
+    flex-direction: row;
+    padding: 0px 30px;
     background-color: rgb(46, 46, 46);
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;
-    font-size: 2rem ;
+    font-size: 2rem;
     height: 70px;
-    z-index: 100; 
-    user-select: none;   
+    z-index: 100;
+    user-select: none;
 }
 
 nav img.Zlogo {
-    height: 4.2rem; 
+    height: 3.5rem;
     width: 7rem;
-    left :1rem;
-    position: absolute;
-    left: 3rem;
+    /* left: 1rem; */
+    /* position: relative; */
+    /* left: 20rem; */
     z-index: 1;
-    top: 0rem;
-    
+    /* top: rem; */
+
 }
+
 /* nav img.zlogo{
     width: 1.7rem;
     position: absolute;
@@ -144,7 +154,7 @@ nav img.Zlogo {
 }
 
 @keyframes box_siz {
-    0%{
+    0% {
         height: 250;
         transition: 1.5s;
     }
@@ -157,7 +167,7 @@ nav img.Zlogo {
     /* background: rgb(235, 197, 226); */
     width: 50%;
     /* animation: movedown 2s linear forwards; */
-    opacity: 1;   
+    opacity: 1;
 }
 
 .left-container .text-box {
@@ -230,7 +240,7 @@ nav img.Zlogo {
     left: 50%;
 }
 
-.container image{
+.container image {
     position: absolute;
     width: 20px;
 }
@@ -256,7 +266,7 @@ nav img.Zlogo {
     width: 6px;
     height: 100%;
     left: 50%;
-    top: 105px;
+    top: 200px;
     margin-left: -3px;
     background: #f4841a;
     z-index: -1;
@@ -282,7 +292,7 @@ nav img.Zlogo {
     margin-bottom: 15px;
 }
 
-.left-container-arrow {
+/* .left-container-arrow {
     height: 0;
     width: 0;
     position: absolute;
@@ -304,7 +314,8 @@ nav img.Zlogo {
     border-bottom: 15px solid transparent;
     border-right: 15px solid #f4841a;
     left: -14px;
-}
+} */
+
 /* .left-container-arrow:hover{
     border-left: 15px solid rgb(137, 129, 129);
 } */
@@ -351,17 +362,31 @@ nav img.Zlogo {
 
     }
 
+    .right-container-arrow {
+        right: -14px;
+        border-left: 15px solid rgb(207, 232, 161);
+        border-right: 0px;
+
+    }
+
     .left-container img {
-        left: -25px;
+        margin: 8px;
+        left: -40px;
+    }
+
+    .right-container img {
+        left: -40px;
     }
 
     .left-container {
-        padding-left: 43px;
+        padding-left: 35px;
         padding-right: 0px;
     }
 
     .right-container {
-        padding-right: 24px;
+        margin: 10px;
+        padding-left: 0;
+        padding-right: 35px;
     }
 }
 
@@ -395,7 +420,7 @@ nav img.Zlogo {
         border-bottom: 12px solid transparent;
         border-right: 12px solid rgb(207, 232, 161);
         left: -12px;
-        border: 1.5px solid black ;
+        border: 1.5px solid black;
 
     }
 
@@ -410,11 +435,11 @@ nav img.Zlogo {
 .text-box {
     height: fit-content;
     position: relative;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     background-color: rgb(255, 255, 255);
     font-size: 15px;
     margin: 0 30px;
-    border: 1.5px solid black;
+    /* border: 1.5px solid black; */
     transition: all 0.3s ease-in-out;
 }
 
@@ -422,16 +447,16 @@ nav img.Zlogo {
     cursor: pointer;
     /* transition: 0.2s; */
     /* animation: box_siz 0.4s  linear; */
-    transform: scale(1.08);  
+    transform: scale(1.08);
 }
 
-.card_header{
+.card_header {
     z-index: 1;
     position: relative;
     padding: 25px 30px 15px;
 }
 
-.card_body{
+.card_body {
     font-size: 18px;
     color: black;
     padding: 15px;
@@ -442,7 +467,7 @@ nav img.Zlogo {
     /* user-select: text; */
 }
 
-.card_header::after{
+.card_header::after {
     z-index: -1;
     content: "";
     display: block;
@@ -451,7 +476,7 @@ nav img.Zlogo {
     bottom: 0;
     left: 0px;
     right: 0;
-    border-radius: 20px 20px 70% 0;
+    border-radius: 0px 0px 70% 0;
     background-image: linear-gradient(to bottom left, #ffce00 10%, #fe4880 115%);
 }
 
@@ -476,7 +501,7 @@ nav img.Zlogo {
 }
 
 
-.bgShape{
+.bgShape {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -489,6 +514,7 @@ nav img.Zlogo {
     letter-spacing: 0.5em;
     position: absolute;
 }
+
 .Main_title p span {
     font: "Oswald", sans-serif;
     letter-spacing: 0;
@@ -507,12 +533,69 @@ nav img.Zlogo {
     -webkit-transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
 }
+
 /* Animate Background Image */
 @-webkit-keyframes aitf {
     0% {
         background-position: 0% 50%;
-   }
+    }
+
     100% {
         background-position: 100% 50%;
-   }
+    }
+}
+
+.wrap .wrap2:before {
+    content: '';
+    position: absolute;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    top: calc(2px/-1);
+    left: calc(2px/-1);
+    background: linear-gradient(to right, #f4841a 0%, #f4841a 100%), linear-gradient(to top, #f4841a 50%, transparent 50%), linear-gradient(to top, #f4841a 50%, transparent 50%), linear-gradient(to right, #f4841a 0%, #f4841a 100%), linear-gradient(to left, #f4841a 0%, #f4841a 100%);
+    background-size: 100% 4px, 4px 200%, 4px 200%, 0% 4px, 0% 4px;
+    background-position: 50% 100%, 0% 0%, 100% 0%, 100% 0%, 0% 0%;
+    background-repeat: no-repeat, no-repeat;
+    transition: transform 0.2s ease-in-out, background-position 0.2s ease-in-out, background-size 0.2s ease-in-out;
+    transform: scaleX(0) rotate(0deg);
+    transition-delay: 0.4s, 0.2s, 0s;
+    z-index: 100;
+    /* border-radius: 8px; */
+}
+
+.wrap .wrap2:hover:before {
+    background-size: 200% 4px, 4px 400%, 4px 400%, 55% 4px, 55% 4px;
+    background-position: 50% 100%, 0% 100%, 100% 100%, 100% 0%, 0% 0%;
+    transform: scaleX(1) rotate(0deg);
+    transition-delay: 0s, 0.2s, 0.4s;
+    z-index: 100;
+    /* border-radius: 8px; */
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 25%,
+    #ff1361 60%,
+    #037d26 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size: 80px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
